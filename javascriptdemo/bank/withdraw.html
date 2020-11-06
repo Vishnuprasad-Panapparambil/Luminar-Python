@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>withdraw</title>
+    <link rel="stylesheet" href="withdraw.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+  <div class="collapse navbar-collapse" style="background-color:#A7E8E8" id="navbar1" >
+        <ul class="navbar-nav mr-auto">
+
+
+
+
+
+            <li class="nav-item active"><h4>
+                <a class="nav-link" style="color:#4432B3" href="login2.html">Home page</a>
+                </h4>
+            </li>
+            <li class="nav-item active"><h3>
+                <a class="nav-link" style="color:#4432B3"id="log" href="login.html">Log Out</a>
+                </h3>
+             </li>
+
+
+            </li>
+        </ul>
+    </div>
+    </nav>
+
+<div class="contain">
+    <div class="row">
+
+    <div class="col-4">
+
+    </div>
+    <div class="col-4">
+        <div class="ta">
+        <h3> Withdraw Amount</h3>
+
+                <p>
+                <label for="mpin">Enter mpin</label><br>
+                    <input type="text" style="font-color:#4432B3" id="mpin"></p>
+
+
+
+                <p>
+                <label for="usr">User name</label><br>
+                    <input type="text" id="usr"></p>
+
+
+
+                <p>
+                <label for="amount">Amount</label><br>
+                    <input type="text" id="amount"></p>
+
+
+                <input type="button" value="proceed" onclick="bank.withdraw()" id="btn1">
+
+        </div>
+
+    </div>
+    <div class="col-4">
+
+    </div>
+
+</div>
+    </div>
+
+</body>
+<script src="deposit.js"></script>
+</html>

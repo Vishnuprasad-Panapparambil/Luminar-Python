@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calc</title>
+    <script src="calculater.js"></script>
+    <link rel="stylesheet" href="calculater.css">
+</head>
+<body>
+
+        <div class="container">
+            <div class="calc">
+            <tr><h3>Calculator</h3></tr>
+            <input type="text" name="screen" id="screen">
+                <input type="text" name="screen1" id="screen1">
+
+            <table>
+
+            <tr>
+                <td><input type="button" value="7" onclick="insert(7)" id="numb"></td>
+                <td><input type="button" value="8" onclick="insert(8)" id="numb"></td>
+                <td><input type="button" value="9" onclick="insert(9)" id="numb"></td>
+                <td><input type="button" value="/" onclick="insert('/')" id="op"></td>
+                <td><input type="button" value="<<<" onclick="backspace()" id="fun"></td>
+
+            </tr>
+
+            <tr>
+                <td><input type="button" value="4" onclick="insert(4)" id="numb"></td>
+                <td><input type="button" value="5" onclick="insert(5)" id="numb"></td>
+                <td><input type="button" value="6" onclick="insert(6)" id="numb"></td>
+                <td><input type="button" value="*" onclick="insert('*')" id="op"></td>
+                <td><input type="button" value="%" onclick="insert('%')" id="fun"></td>
+
+            </tr>
+
+             <tr>
+                <td id="nm"><input type="button" value="1" onclick="insert(1)" id="numb" ></td>
+                <td><input type="button" value="2" onclick="insert(2)" id="numb"></td>
+                <td><input type="button" value="3" onclick="insert(3)" id="numb"></td>
+                <td><input type="button" value="-" onclick="insert('-')" id="op"></td>
+                 <td><input type="button" value="Ac" id="fun" onclick="screenclear()"></td>
+
+
+
+            </tr>
+
+            <tr>
+                <td><input type="button" value="," onclick="insert(',')" id="op"></td>
+                <td><input type="button" value="0" onclick="insert(0)" id="numb"></td>
+                <td><input type="button" value="."  onclick="insert('.')"id="op"></td>
+                <td><input type="button" value="+" onclick="insert('+')"id="op"></td>
+                <td><input type="button" value="=" onclick="equal()" id="fun"></td>
+
+
+
+            </tr>
+                </table>
+            </div>
+
+        </div>
+
+
+
+
+
+
+</body>
+<script src="calculater.js"></script>
+</html>
